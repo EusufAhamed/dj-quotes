@@ -23,6 +23,6 @@ First Things First.
     python manage.py migrate
     python manage.py createsuperuser
 
-#. After that Add Some Quotes & Category & Visit
+#. After that Add Some Quotes & Category Data & Visit
     http://127.0.0.1:8000/
 

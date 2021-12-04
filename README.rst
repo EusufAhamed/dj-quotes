@@ -19,8 +19,11 @@ First Things First.
 
 #. Open Another Terminal & Run
     docker-compose exec dj-quotes bash / docker exec -it dj-quotes bash
+    
     cd src
+    
     python manage.py migrate
+    
     python manage.py createsuperuser
 
 #. After that Add Some Quotes & Category Data & Visit

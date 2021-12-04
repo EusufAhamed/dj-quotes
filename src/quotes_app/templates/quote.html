@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block title %}
+Quotes Collection
+{% endblock %}
+
+{% block body %}
+<h1><code>Quotes Collection</code></h1>
+{% for quote in quotes %}
+<blockquote>
+    <p>{{ quote.quote_category.name }}</p>
+    <p><q>{{ quote.quote }}</q></p>
+    <footer>{{ quote.author }}</footer>
+</blockquote>
+{% endfor %}
+{% endblock %}
